@@ -1,5 +1,6 @@
-const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+const mongoose = require('mongoose');
+// const URI = require('../config/index');
+const Schema = mongoose.Schema;
 
 const Movie = new Schema(
     {
