@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URI = require('../../config/index');
+const URI = require('../config/index');
 const Schema = mongoose.Schema;
 
 mongoose.connect(process.env.MONGODB_URI || URI);
