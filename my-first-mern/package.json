@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "build-fe": "cd client && yarn build",
     "start-dev": "cd client && yarn build && cd .. && nodemon index.js"
   }
 }
